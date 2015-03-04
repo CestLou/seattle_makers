@@ -134,7 +134,9 @@ body {
   margin-bottom: 30px;
   margin-left: 10px;
   margin-right: 10px;
-  display: inline-block;
+  /*display: inline-block;*/
+  /* fixed it! */
+  float: left;
   border: .13em solid #726659;
   height: 250px;
   width: 301px;
@@ -291,6 +293,9 @@ div.modal-footer {
 
 .event-row {
   min-height: 700px;
+  /*position: relative;*/
+  width: 85%;
+  margin: 0 auto;
 }
 
 .event-cat-box {
