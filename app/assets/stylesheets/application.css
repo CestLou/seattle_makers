@@ -134,20 +134,26 @@ body {
   margin-bottom: 30px;
   margin-left: 10px;
   margin-right: 10px;
-  /*display: inline-block;*/
   /* fixed it! */
   float: left;
   border: .13em solid #726659;
-  height: 250px;
-  width: 301px;
+/*  height: 250px;
+  width: 301px;*/
+  max-height: 20%;
+  max-width: 30%;
+/*  min-width: 20%;
+  min-height: 10%;*/
   background-color: #f3eadc;
   /*background-color: #a88f6a;*/
 }
 
 .event-img {
   border-bottom: 1px double #726659;
-  max-height: 200px;
-  max-width: 300px;
+  /*max-height: 200px;*/
+  /*max-width: 300px;*/
+
+  max-width: 100%;
+  max-height: 100%;
   /*border-bottom: 5px double #726659;*/
 }
 
@@ -707,6 +713,10 @@ fieldset[disabled] .btn-primary.active {
 
   #bio-padding {
     padding-top: 80px;
+  }
+  .event-div {
+    min-height: 200px;
+    min-width: 300px;
   }
 
 }
