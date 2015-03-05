@@ -256,7 +256,7 @@ div.modal-footer {
 
 .bio-div {
   display: inline-block;
-  width: 35%;
+  width: 40%;
   padding: 0 15px 0 15px;
 }
 
@@ -700,7 +700,7 @@ fieldset[disabled] .btn-primary.active {
   }
 
   .bio-div {
-    max-width: 70%;
+    width: 70%;
   }
 
   #bio-padding {
